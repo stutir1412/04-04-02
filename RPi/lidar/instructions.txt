@@ -1,0 +1,8 @@
+//LIDARRRR
+g++ w7s2.cpp Lib/librplidar_sdk.a -lpthread -lm
+
+./a.out /dev/ttyUSB0
+
+//GNUPLOT
+gnuplot lidar_plot_live.plt
+
