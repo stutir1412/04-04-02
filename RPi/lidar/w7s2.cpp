@@ -255,7 +255,7 @@ int main(int argc, const char * argv[]) {
       
         drv->stop();
         drv->stopMotor();
-        cout << "Press enter to continue." << endl;
+        printf("** Press enter to continue. **\n");
         getchar();
         drv->startMotor();
     } while(1);
